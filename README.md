@@ -26,3 +26,17 @@ If you find the paper useful in your research, please cite the paper:
       Year = {2018},
       Bdsk-Url-1 = {http://www.opticsexpress.org/abstract.cfm?URI=oe-26-11-14678},
       Bdsk-Url-2 = {https://doi.org/10.1364/OE.26.014678}}
+
+## Trianing & Testing
+The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout thest two files. We also have a pre-trained model [here](). Please cite the paper if you find our pre-trained model useful for your ressearch. 
+
+To train/test a ScaDec, simply type:
+
+      python train.py
+      python test.py
+
+
+      
+      
+      
+       
