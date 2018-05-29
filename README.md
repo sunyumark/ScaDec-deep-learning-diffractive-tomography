@@ -1,7 +1,7 @@
 ## Efficient and accurate inversion of multiple scattering with deep learning
 
-This is the training code for the deep leraning model [ScaDec](https://www.osapublishing.org/DirectPDFAccess/5EB84514-0152-9CA0-B91D9EDF42DE82BB_389936/oe-26-11-14678.pdf?da=1&id=389936&seq=0&mobile=no) for inverting multiple light scattering in a surpervised manner.
-The pdf of the paper is available [here](https://www.osapublishing.org/DirectPDFAccess/5EB84514-0152-9CA0-B91D9EDF42DE82BB_389936/oe-26-11-14678.pdf?da=1&id=389936&seq=0&mobile=no)
+This is the training code for the deep leraning model [ScaDec](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search) for inverting multiple light scattering in a surpervised manner.
+The pdf of the paper is available [here](https://www.osapublishing.org/DirectPDFAccess/CB07CEC2-DDF5-14B4-7CC043CE75E1CD47_389936/oe-26-11-14678.pdf?da=1&id=389936&seq=0&mobile=no)
 
 ![visualExamples](images/visualExamples.jpg "Visual illustration of reconstructed images of ScaDec")
 
