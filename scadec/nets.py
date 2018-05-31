@@ -88,7 +88,7 @@ def unet_decoder(x, keep_prob, phase, img_channels, truth_channels, layers=3, co
 
     # Output with residual
     with tf.variable_scope("conv2d_1by1"):
-        output = conv2d_relu(in_node, 1, truth_channels, keep_prob, 'conv2truth_channels')
+        output = conv2d(in_node, 1, truth_channels, keep_prob, 'conv2truth_channels')
         up_h_convs["out"] = output
     
     if summaries:
