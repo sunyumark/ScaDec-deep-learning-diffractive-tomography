@@ -53,7 +53,7 @@ class BaseDataProvider(object):
 class SimpleDataProvider(BaseDataProvider):
     
     def __init__(self, data, truths):
-        super(SimpleDataProvider2, self).__init__()
+        super(SimpleDataProvider, self).__init__()
         self.data = np.float64(data)
         self.truths = np.float64(truths)
         self.img_channels = self.data[0].shape[2]
