@@ -1,7 +1,7 @@
 ## Efficient and accurate inversion of multiple scattering with deep learning
 
 This is the training code for the deep leraning model [ScaDec](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search) for inverting multiple light scattering in a surpervised manner.
-[The paper](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search) is originally published on [Optics Express](https://www.osapublishing.org/oe/home.cfm). The arxiv version of the paper is available [here](https://arxiv.org/abs/1803.06594)
+The [paper](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search) is originally published on [Optics Express](https://www.osapublishing.org/oe/home.cfm). The arxiv version of the paper is available [here](https://arxiv.org/abs/1803.06594)
 
 ![visualExamples](images/visualExamples.jpg "Visual illustration of reconstructed images of ScaDec")
 
@@ -28,7 +28,7 @@ If you find the paper useful in your research, please cite the paper:
       Bdsk-Url-2 = {https://doi.org/10.1364/OE.26.014678}}
 
 ## Trianing & Testing
-The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also have a pre-trained model [here](). Please cite the paper if you find our pre-trained model useful for your research. 
+The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also have a pre-trained model [here](https://wustl.box.com/s/cjo6gy9whvykgv9fc0stk8mc30c92s1z). Please cite the paper if you find our work useful for your research. 
 
 To train/test a ScaDec, simply type:
 
