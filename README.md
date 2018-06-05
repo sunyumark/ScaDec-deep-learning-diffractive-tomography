@@ -28,7 +28,7 @@ If you find the paper useful in your research, please cite the paper:
       Bdsk-Url-2 = {https://doi.org/10.1364/OE.26.014678}}
 
 ## Trianing & Testing
-The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also have a pre-trained model [here](https://wustl.box.com/s/cjo6gy9whvykgv9fc0stk8mc30c92s1z). Please cite the paper if you find our pre-trained model useful for your research. 
+The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also have a pre-trained model [here](https://wustl.box.com/s/cjo6gy9whvykgv9fc0stk8mc30c92s1z). Please cite the paper if you find our work useful for your research. 
 
 To train/test a ScaDec, simply type:
 
