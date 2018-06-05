@@ -120,7 +120,7 @@ class Unet_bn(object):
         return loss     
     
     # predict
-    def predict(self, model_path, x_test):
+    def predict(self, model_path, x_test, keep_prob, phase):
         """
         Uses the model to create a prediction for the given data
         
@@ -138,8 +138,8 @@ class Unet_bn(object):
             self.restore(sess, model_path)
             
             prediction = sess.run(self.recons, feed_dict={self.x: x_test, 
-                                                          self.keep_prob: 1., 
-                                                          self.phase: False})  # set phase to False for every prediction
+                                                          self.keep_prob: keep_prob, 
+                                                          self.phase: phase})  # set phase to False for every prediction
                             # define operation
         return prediction
     
