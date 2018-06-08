@@ -44,7 +44,6 @@ kwargs = {
     "features_root": 64,
     "filter_size": 3,
     "pool_size": 2,
-    "residual": True,
     "summaries": True
 }
 
