@@ -35,8 +35,9 @@ To train/test a ScaDec, simply type:
       python train.py
       python test.py
 
-
-      
+## Errata
+In the paper, the feature dimension of ScaDec is mistyped in Fig.3. The corrected feature figure is shown here. 
+![ScaDecArch](images/ScaDecArch.jpg "Visual illustration of ScaDec")
       
       
        
