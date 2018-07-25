@@ -7,7 +7,9 @@ Image reconstruction under multiple light scattering is crucial in a number of a
 
 ## Experimental Results
 The following two figures show the visual results of ScaDec on simulated and experimental datasets ([CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) & [Fresnel](http://iopscience.iop.org/article/10.1088/0266-5611/21/6/S09/meta)). The ScaDec substantially outperforms the optimization-based methods.
+
 ![visualExamples](images/visualExamples.jpg "Visual illustration of reconstructed images of ScaDec")
+
 ![expExamples](images/expExamples.jpg "Visual Example of Fresnel2D dataset")
 
 ## Trianing & Testing
