@@ -1,4 +1,4 @@
-### [Efficient and accurate inversion of multiple scattering with deep learning](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search)
+## [Efficient and accurate inversion of multiple scattering with deep learning](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search)
 
 This is the training code for the deep leraning model [ScaDec](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search) for inverting multiple light scattering in a surpervised manner. The [paper](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-26-11-14678&origin=search) is originally published on [Optics Express](https://www.osapublishing.org/oe/home.cfm). The arxiv version of the paper is available [here](https://arxiv.org/abs/1803.06594)
 
@@ -6,6 +6,7 @@ This is the training code for the deep leraning model [ScaDec](https://www.osapu
 Image reconstruction under multiple light scattering is crucial in a number of applications such as diffraction tomography. The reconstruction problem is often formulated as a nonconvex optimization, where a nonlinear measurement model is used to account for multiple scattering and regularization is used to enforce prior constraints on the object. In this paper, we propose a powerful alternative to this optimization-based view of image reconstruction by designing and training a deep convolutional neural network that can invert multiple scattered measurements to produce a high-quality image of the refractive index. Our results on both simulated and experimental datasets show that the proposed approach is substantially faster and achieves higher imaging quality compared to the state-of-the-art methods based on optimization.
 
 ## Experimental Results
+The following two figures show the visual results of ScaDec on simulated and experimental datasets (CeleA & Fresel). The ScaDec substantially outperforms the optimization-based methods.
 ![visualExamples](images/visualExamples.jpg "Visual illustration of reconstructed images of ScaDec")
 ![expExamples](images/expExamples.jpg "Visual Example of Fresnel2D dataset")
 
