@@ -20,6 +20,12 @@ To train/test a ScaDec, simply type:
       python train.py
       python test.py
 
+## Environment Requirement
+Tensorflow v1.4
+PIL
+Python 3.6
+Scipy
+
 ## Citation
 If you find the paper useful in your research, please cite the paper:
 
