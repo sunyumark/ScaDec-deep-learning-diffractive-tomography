@@ -53,6 +53,6 @@ In the paper, the feature dimension of ScaDec is mistyped in Fig.3. The correcte
 
 ![ScaDecArch](images/ScaDecArch.jpg "Visual illustration of ScaDec")
       
-Thanks to Jiaming for pointing out this typo. If you have any concerns about this paper, feel free to contact us: sun.yu@wustl.edu
+Thanks Jiaming for pointing out this typo. If you have any concerns about this paper, feel free to contact us: sun.yu@wustl.edu
 
        
