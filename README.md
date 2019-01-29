@@ -13,7 +13,7 @@ The following two figures show the visual results of ScaDec on simulated and exp
 ![expExamples](images/expExamples.jpg "Visual Example of Fresnel2D dataset")
 
 ## Trianing & Testing
-The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also have a [**pre-trained model here**](https://wustl.box.com/s/cjo6gy9whvykgv9fc0stk8mc30c92s1z). Please cite the paper if you find our work useful for your research. 
+The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also share [**pre-trained model and code here**](https://wustl.box.com/s/kjnpwgg9ktauebolqid41dozyso0q9kz). Please cite the paper if you find our work useful for your research. 
 
 To train/test a ScaDec, simply type:
 
