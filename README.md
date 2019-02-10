@@ -15,9 +15,13 @@ The following two figures show the visual results of ScaDec on simulated and exp
 ## Trianing & Testing
 The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also share [**pre-trained model and code here**](https://wustl.box.com/s/kjnpwgg9ktauebolqid41dozyso0q9kz). Please cite the paper if you find our work useful for your research.
 The matlab code does 
+
 (1) generating measurements by solving 2D Lippmann Schwinger Equation
+
 (2) generating syntheized Gaussian piece-wise smoothed elipses
+
 (3) generating syntheized circles for Fresnel 2D
+
 (4) backpropagation
 
 
