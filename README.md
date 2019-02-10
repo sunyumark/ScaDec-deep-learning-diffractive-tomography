@@ -13,7 +13,14 @@ The following two figures show the visual results of ScaDec on simulated and exp
 ![expExamples](images/expExamples.jpg "Visual Example of Fresnel2D dataset")
 
 ## Trianing & Testing
-The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also share [**pre-trained model and code here**](https://wustl.box.com/s/kjnpwgg9ktauebolqid41dozyso0q9kz). Please cite the paper if you find our work useful for your research. 
+The scripts train.py and test.py are for training and testing the model ScaDec. If you want to train your own ScaDec, please checkout these two files. We also share [**pre-trained model and code here**](https://wustl.box.com/s/kjnpwgg9ktauebolqid41dozyso0q9kz). Please cite the paper if you find our work useful for your research.
+The code includes:
+```
+Generating measurements by solving 2D Lippmann Schwinger Equation
+Generating syntheized Gaussian piece-wise smoothed elipses
+Generating syntheized circles for Fresnel 2D
+Backpropagation
+```
 
 To train/test a ScaDec, simply type:
 
