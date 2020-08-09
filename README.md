@@ -58,7 +58,7 @@ If you find the paper useful in your research, please cite the paper:
       Bdsk-Url-2 = {https://doi.org/10.1364/OE.26.014678}}
 
 
-## Errata
+## Erratum
 In the paper, the feature dimension of ScaDec is mistyped in Fig.3. The corrected feature figure is shown here.
 
 ![ScaDecArch](images/ScaDecArch.jpg "Visual illustration of ScaDec")
